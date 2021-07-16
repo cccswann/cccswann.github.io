@@ -1,6 +1,10 @@
 .AboutImg {
+      @media (min-width: 768px) {
         --size: 350px;
-      
+      }
+      @media (max-width: 768px) {
+        --size: 100px;
+      }
         width: var(--size);
         border-radius: calc(var(--size) * 0.15);
         filter: drop-shadow(7px 7px 7px #dbdbdb);

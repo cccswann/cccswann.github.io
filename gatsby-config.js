@@ -1,11 +1,9 @@
 module.exports = {
   siteMetadata: {
-        title: `Marguerite Roth | Product Designer & Developer`,
-        description: `Personal site for Marguerite Roth`,
-        author: `Marguerite Roth | marguerite.io | @marrrguerite`,
-        siteUrl: "https://marguerite.io",
-        image: `https://marguerite.io/og-image.png`,
-        twitterImage: `https://marguerite.io/twitter-image.png`,
+        title: `Ciara Swann | Software Engineer`,
+        description: `Personal site for Ciara Swann`,
+        author: `Ciara Swann | cccswann.github.io`,
+        siteUrl: "https://cccswann.github.io",
         keywords: `web development, design, data, product, visualization, dashboard, analytics, currents, parse.ly, visual`,
   },
   plugins: [
@@ -21,7 +19,7 @@ module.exports = {
     {
         resolve: `gatsby-plugin-canonical-urls`,
         options: {
-        siteUrl: `https://marguerite.io`,
+        siteUrl: `https://cccswann.github.io`,
     },
       },
     // {
@@ -113,18 +111,6 @@ module.exports = {
     // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-        resolve: `gatsby-plugin-manifest`,
-        options: {
-            name: `rose madder`,
-            short_name: `rose`,
-            start_url: `/`,
-            background_color: `#663399`,
-            theme_color: `#663399`,
-            display: `minimal-ui`,
-            icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
-        },
-    },
     {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
