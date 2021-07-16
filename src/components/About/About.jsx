@@ -22,7 +22,7 @@ const About = () => {
                         <p className="About__subheader">
                             I'm currently pursuing a <span className="underline--magical">Master's in Computer Science</span> at Arizona State University. I'm also a University of Washington alumna;
                             while there, I studied <span className="underline--magical">Communications</span> and <span className="underline--magical">Business Administration</span>. During my undergrad, I began 
-                            programming and learning computer science concepts in my free time -- and I never stopped. I'm particularly interested in <span className="underline--magical">cloud computing</span> and <span className="underline--magical">distributed systems</span>. 
+                            programming and learning computer science concepts in my free time -- and I never stopped. I'm particularly interested in <span className="underline--magical">cloud computing</span> and <span className="underline--magical">the designing of data-intensive applications</span>. 
                             {/* <span className="emoji" role="img" aria-label="Emoji smile">😊</span> */}
                         </p>
                         <p><strong>Here are some technologies I've been using recently:</strong></p>
